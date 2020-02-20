@@ -1,0 +1,144 @@
+body{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
+	background-color: #005c6b9e;
+}
+header{
+	background: #ffffff;
+
+}
+.container{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+.logo-section{
+	width: 21%;
+	display: inline-block;
+}
+.logo-section img{
+	width: 100%;
+	margin-top: 4px;
+}
+nav{
+	float: right;
+	margin-top: 94px;
+	margin-right: 92px;
+}
+nav a{
+	text-decoration: none;
+	color: #000000;
+	text-transform: none;
+	margin-left: 17px;
+	font-size: 20px;
+	padding: 16px 26px;
+}
+nav a:hover{
+	background: #e43228;
+	border-radius: 13px;
+}
+section.banner-section{
+	background-image: url(../images/me.jpeg);
+	padding: 200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: darkkhaki;
+}
+
+section.banner-section h1{
+	text-align: center;
+	color: #3b72a3;
+    text-decoration: none;
+    border: 1px solid;
+    font-size: 50px;
+    background: #f3dede;
+}
+
+/*Slider part*/
+
+div.content-wrapper{
+	width: 1300px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+
+div.image_content{
+	width: 100%;
+	overflow: hidden;
+}
+
+div.image_content figure img{
+	height: 800px;
+	width: 1300px;
+	float: left;
+	margin: 0-auto;
+}
+div.image_content figure{
+	animation: 30s slider infinite;
+	position: relative;
+	left: 0;
+	margin:0;
+	width: 900%;	
+}
+
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}	
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	70%{
+		left: -200%;
+	}
+	75%{
+		left: -300%;
+	}
+	80%{
+		left: -300%;
+	}
+	85%{
+		left: -400%;
+	}
+	90%{
+		left: -400%;
+	}
+}	
+
+.about_container{
+
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+}
+
+.about_us{
+	color: #ffffff;
+
+}
+
+.about_content{
+	width: 50%;
+	float: left;
+	color: #ffffff;
+	padding-top: 100px;
+}
+.image_context{
+	width: 40%;
+	float: right;
+
+}
