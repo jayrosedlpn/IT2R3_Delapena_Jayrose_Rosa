@@ -130,15 +130,30 @@ div.image_content figure{
 	color: #ffffff;
 
 }
-
+.image_context{
+	width: 100%;
+    float: right;
+}
 .about_content{
 	width: 50%;
 	float: left;
 	color: #ffffff;
 	padding-top: 100px;
 }
-.image_context{
-	width: 40%;
-	float: right;
 
+h2.title{
+	text-align: center;
+	font-size: 64px;
+	text-transform: uppercase;
+}
+
+.service-section-div{
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	font-size: 19px;
+	line-height: 29px;
+}
+.service-section-div{
+	font-size: 127px;
 }
